@@ -37,7 +37,7 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
-    "@stencil/core": "4.21.0",
+    "@stencil/core": "4.16.0",
     "@types/node": "^16.18.11",
     "puppeteer": "^21.9.0"
   },
