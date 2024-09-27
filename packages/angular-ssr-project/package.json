@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "(rm -r dist || true) && ng build",
+    "build": "ng build --delete-output-path true",
     "serve:ssr": "node dist/angular-ssr-project/server/server.mjs",
     "watch": "ng build --watch --configuration development"
   },
